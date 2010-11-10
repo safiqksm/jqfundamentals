@@ -57,5 +57,16 @@ $(function(){
     .addClass("current")
     .nextAll("li")
     .addClass("disabled");
+
+// manipulation
+
+  // 1. Add five new list items to the end of the unordered list #myList. Hint: for (var i = 0; i<5; i++) { ... }
+  for (var i=0; i<5; i++) {
+    $("#myList").append("<li>new item"+ i +"</li>");
+  }
+
+
+  
+  
   
   });
